@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">ContestFebruary</string>
+    <string name="app_name">WorldVisit</string>
+    <string name="noresult">Aucun resultat trouvé</string>
+    <string name="submit">OK</string>
+    <string name="valid">Valider</string>
+    <string name="new_country">Ajouter un pays</string>
+    <string name="label_capital_country">Capitale :</string>
+    <string name="label_region_country">Continent :</string>
 </resources>
