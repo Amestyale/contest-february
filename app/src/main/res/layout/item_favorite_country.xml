@@ -14,13 +14,15 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical" app:layout_constraintTop_toTopOf="parent">
-                        <TextView
-                            android:id="@+id/flag_image"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            android:text="pepito"/>
+                        <ImageView
+                            android:id="@+id/country_flag"
+                            android:layout_width="80dp"
+                            android:layout_height="40dp"
+                            android:layout_marginRight="0px"
+                            android:backgroundTint="@color/colorPrimaryDark"
+                            android:src="@drawable/ic_launcher_foreground"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
                         <TextView
                             android:id="@+id/date_country"
                             app:layout_constraintTop_toBottomOf="@+id/flag_image"
@@ -83,8 +85,8 @@
         </LinearLayout>
         <ImageButton
             android:id="@+id/delete_button"
-            android:layout_width="100px"
-            android:layout_height="100px"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_marginRight="0px"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
