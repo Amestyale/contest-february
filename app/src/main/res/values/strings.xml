@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ContestFebruary</string>
+    <string name="label_capital_country">Capitale :</string>
+    <string name="label_region_country">Continent :</string>
 </resources>
