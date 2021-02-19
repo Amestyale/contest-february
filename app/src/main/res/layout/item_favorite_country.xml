@@ -83,12 +83,11 @@
         </LinearLayout>
         <ImageButton
             android:id="@+id/delete_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/colorPrimaryDark"
+            android:layout_width="100px"
+            android:layout_height="100px"
             android:layout_marginRight="0px"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:src="@drawable/ic_launcher_foreground"/>
+            android:onClick="onClickBoutonDelete"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

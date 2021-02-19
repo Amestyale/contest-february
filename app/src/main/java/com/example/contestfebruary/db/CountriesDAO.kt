@@ -7,7 +7,7 @@ import com.example.contestfebruary.models.CountryDTO
 abstract class CountriesDAO
 {
     @Query("SELECT * FROM countries")
-    abstract fun getListeCountries(): List<CountryDTO>
+    abstract fun getListeCountries(): MutableList<CountryDTO>
     @Insert
     abstract fun insert(vararg country: CountryDTO)
     @Update
