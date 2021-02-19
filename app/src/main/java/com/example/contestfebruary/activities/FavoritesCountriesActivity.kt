@@ -19,7 +19,7 @@ class FavoritesCountriesActivity : AppCompatActivity(){
         val listeCountries: MutableList<CountryDTO> = ArrayList()
 
         listeCountries.add(CountryDTO(0, "France", "Paris", "Europe", "10/03/2021", "FR"))
-
+        listeCountries.add(CountryDTO(0, "Francedqsdqdqsdqdsq", "Paris", "Europe", "10/03/2021", "FR"))
         val favoritesCountriesAdapter = FavoritesCountriesAdapter(listeCountries)
         liste_countries.adapter = favoritesCountriesAdapter
 
